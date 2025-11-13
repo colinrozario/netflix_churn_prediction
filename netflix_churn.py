@@ -9,7 +9,7 @@ from sklearn.neighbors import KNeighborsClassifier
 from sklearn.metrics import classification_report, confusion_matrix
 
 #Loading dataset
-df = pd.read_csv(r".\netflix_customer_churn.csv")
+df = pd.read_csv(r"netflix_customer_churn.csv")
 
 #Dataset info display
 print("First few data samples",df.head())
